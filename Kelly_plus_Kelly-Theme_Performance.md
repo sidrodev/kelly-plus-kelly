@@ -20,7 +20,7 @@
 - Score is caculated using google lighthouse.
 - Google lighthouse is a performance auditing tool, that google has been working on for several years, that tries to boil down performance into one magic number.
 - shopify's score also gives you an idea of how you compare to other people in same line as you.
-![Online store speed - Reports dashboard window screenshot](assets/img/Online_Store_Speed-focus.png "Online store speed - Reports")
+![Online store speed - Reports dashboard window screenshot](Assets/img/Online_Store_Speed-focus.png "Online store speed - Reports")
 - Performance is user expectation and customer's experience of what is fast.
 - Headless implementation convo going on in Twitch chat, in regards to possible impact to performance.
 - Headless implementation is decoupling front-end of website from back-end.
@@ -39,7 +39,7 @@
 - Even if you uninstall an app, its code may still remain in the theme and also add to the performance of a storefront.
 - If an app is installed and asked for access to the asset api, that means the app will probably be modifying your theme files and may not necessarily unmodify them when unistalled.
 - In order to work on or tweak performance for your theme and/or storefront, we can go to devtools (F12) of the browser and then go to lighthouse. (Make sure to use Chromium base browsers!!)
-![Google Chrome browser DevTools with Lighthouse tab selected screenshot](assets/img/lighthouse.png "DevTools - Lighthouse")
+![Google Chrome browser DevTools with Lighthouse tab selected screenshot](Assets/img/lighthouse.png "DevTools - Lighthouse")
 - Extensions do have an impact on performance as well, when using lighthouse.
 - run in incognito mode without any extensions running.
 - Lighthouse report give us user centric metrics that are trying to judge user experience.
@@ -52,7 +52,7 @@
   - Total Blocking Time: how much CPU is fully occupied and not able to respond to user interaction
   - Cumulative Layout Shift: Core Web Vitals metric calculated by summing all layout shifts that aren’t caused by user interaction.
     - For example, have you ever visited a news site and was about to click on a link to an article, and then… the layout suddenly moves, an ad appears, and somehow instead of clicking on the article you wanted to read, you instead end up clicking on that useless ad? That sudden movement on the page is called the layout shift.
-![Google Chrome browser DevTools Lighthouse with Report ran showcasing metrics](assets/img/lighthouse2.png "Lighthouse Report")
+![Google Chrome browser DevTools Lighthouse with Report ran showcasing metrics](Assets/img/lighthouse2.png "Lighthouse Report")
 - In the report, lighthouse also provides us with "Opportunity", nice way of getting started in tweaking the site's performance.
 - It's also a way of pointing us in a direction that can help with the tweaking we can perform and may help with site performance.
 - Lighthouse's "Opportunity" audit/report is not a debug type of tool. It's more like a signal flare to where may be we should start looking into and possibly see what we can find to help us with improve performance on our site/theme.
@@ -77,8 +77,8 @@
   - lazysizes is the most popular library for lazy-loading images. It is a script that intelligently loads images as the user moves through the page and prioritizes images that the user will encounter soon.
   - Lazy-loading is the strategy of loading resources as they are needed, rather than in advance. This approach frees up resources during the initial page load and avoids loading assets that are never used.
 - [In liquid we can specify an image format, for displayed image](https://shopify.dev/docs/themes/liquid/reference/filters/url-filters#img_url).
-![Google Chrome browser DevTools sources tab index file under uncorkedandbottledup.com sample sceenshot. Showcasing Devtools Overrides](assets/img/devtools_override.png "Sources > Overrides")
-![Google Chrome browser DevTools sources tab index file under uncorkedandbottledup.com sample sceenshot. Showcasing change to webp](assets/img/devtools_override2.png)
+![Google Chrome browser DevTools sources tab index file under uncorkedandbottledup.com sample sceenshot. Showcasing Devtools Overrides](Assets/img/devtools_override.png "Sources > Overrides")
+![Google Chrome browser DevTools sources tab index file under uncorkedandbottledup.com sample sceenshot. Showcasing change to webp](Assets/img/devtools_override2.png)
 - If we want to get a score close to 100, there will be tradeoffs.
 - [[Kelly V](https://github.com/kellyvaughn)] Q: would you rather go the cropping route or would you rather have an alternate image uploaded for mobile devices?
 - [[Thomas K](https://github.com/t-kelly)] A: "would go the cropping route because then it allows any..." <a href=#definitions>[sic]*</a> [contingencies?!] "because if you do if you upload different images then you need to predict or you need to figure it out yourself" [sic].
