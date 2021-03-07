@@ -1,5 +1,7 @@
 ## [{{ Kelly | plus: Kelly }} Building a custom online store – January 27th, 2021](https://youtu.be/wcIYoOsjxdE)
 
+----
+
 A new year brings new beginnings! Join Kelly Vaughn and Thomas Kelly as they get started building out their custom Shopify online store. Follow the build LIVE every Wednesday @2PM EST at <https://twitch.tv/shopifydevs>​. Code available at <https://github.com/t-kelly/shopipoint>...​
 
 Mentioned Links:
@@ -26,9 +28,12 @@ Connect with us on Twitter » www.twitter.com/shopifydevs
 
 Launch your own online store by visiting Shopify and starting your free trial » <http://bit.ly/VisitShopify>
 
-----
+<br><br>
 
 ## Notes
+
+----
+<br>
 
 - `{{ | plus: Kelly }}`: "One of the topics for today, that we going to speak on is [Theme Check](https://github.com/Shopify/theme-check). [Marc Cournoyer](https://github.com/macournoyer) has been working on this. It's something that, I think, we need to really pump up. This is huge! I'm so excited to see this out and already what it can do but the potential of what it can do too."
 - `{{ Kelly | }}`: "Do you want to also talk about what our plans are for for the stream moving forward."
@@ -156,10 +161,13 @@ Launch your own online store by visiting Shopify and starting your free trial »
 - `{{ Kelly | }}`:
 - `{{ | plus: Kelly }}`:
 
-<br>
+<br><br>
+
 ### Legend
 
 ----
+
+<br>
 
 [![Kelly Vaughn Twitter Profile Picture](Assets/img/kvelly.jpg "Kelly Vaughn")](https://twitter.com/kvlly)
 
@@ -169,9 +177,13 @@ Launch your own online store by visiting Shopify and starting your free trial »
 
 - `{{ | plus: Kelly }}` = [Thomas Kelly](https://github.com/t-kelly)
 
-----
+<br><br>
 
 ### More Links
+
+----
+
+<br>
 
 - Regex tutorial — A quick cheatsheet by examples: <https://medium.com/factory-mind/regex-tutorial-a-simple-cheatsheet-by-examples-649dc1c3f285>
 - Regex cookbook — Top 10 Most wanted regex: <https://medium.com/factory-mind/regex-cookbook-most-wanted-regex-aa721558c3c1>
