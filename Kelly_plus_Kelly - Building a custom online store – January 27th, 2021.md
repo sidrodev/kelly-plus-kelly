@@ -161,11 +161,11 @@ Launch your own online store by visiting Shopify and starting your free trial »
 
 ----
 
-[Assets\img\t-kelly.jpg](https://twitter.com/kvlly)
+[![Kelly Vaughn Twitter Profile Picture](Assets/img/kvelly.jpg "Kelly Vaughn")](https://twitter.com/kvlly)
 
 - `{{ Kelly | }}` = [Kelly Vaughn](https://www.linkedin.com/in/kellyvaughn/)
 
-[![4f9d4f51b887e1264249a8df7a595ba9.png](:/a0169c72c61a4ebcb0157841df70ba20)](https://twitter.com/thommaskelly)
+[![Thomas Kelly Twitter Profile Picture](Assets/img/t-kelly.jpg "Thomas Kelly")](https://twitter.com/thommaskelly)
 
 - `{{ | plus: Kelly }}` = [Thomas Kelly](https://github.com/t-kelly)
 
