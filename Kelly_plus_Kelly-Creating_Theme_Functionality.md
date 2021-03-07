@@ -1,4 +1,6 @@
-## [Creating Theme Functionality - Sept 30, 2020](https://www.youtube.com/watch?v=wR8L-0QnKZo&t=392s)
+# [Creating Theme Functionality - Sept 30, 2020](https://www.youtube.com/watch?v=wR8L-0QnKZo&t=392s)
+
+* * *
 
 In this recording Kelly Vaughn and Thomas Kelly explore how to add functionality into your theme projects, and explore some of the features you can build in your theme.
 
@@ -9,49 +11,56 @@ The Kellys will walk you through how to:
 - Set up free shipping thresholds
 - Apply styling to a custom section
 
---------------------------------
+* * *
+
 Subscribe to our channel for more videos about developing and designing ecommerce stores, apps, and themes with Shopify » www.youtube.com/shopifydevs​
 
-Looking for more information about developing on Shopify check out www.developers.shopify.com and https://shopify.dev/​
+Looking for more information about developing on Shopify check out www.developers.shopify.com and <https://shopify.dev/>​
 
 Connect with us on Twitter » www.twitter.com/shopifydevs
 
-Launch your own online store by visiting Shopify and starting your free trial » http://bit.ly/VisitShopify
+Launch your own online store by visiting Shopify and starting your free trial » <http://bit.ly/VisitShopify>
 
-* * *
 <br>
 
-Notes:
+## Notes
+
+* * *
+
 - Kelly Vaughn "you don't always need an app to solve some basic problems". Only takes a bit of coding and building a custom section, which can be used in future projects as well.
 - Conversion rate optimization (CRO). Anything for CRO is great especially something like a free shipping bar that counts down when you are getting to that free shipping threshold
 - imposter syndrome is a thing. it's ok to google, search, for something. shopify.dev site is also your friend. live by it as well.
 - Section everywhere is still coming "Soon".
 - Can tune into partner town hall webcast:
-	- [October 2020 Partner Town Hall](https://www.youtube.com/watch?v=QGGhpiuKFGw)
-	- [October 2020 Partner Town Hall - Asia-Pacific Countries (APAC)](https://www.youtube.com/watch?v=3j7mbZsypew)
+  - [October 2020 Partner Town Hall](https://www.youtube.com/watch?v=QGGhpiuKFGw)
+  - [October 2020 Partner Town Hall - Asia-Pacific Countries (APAC)](https://www.youtube.com/watch?v=3j7mbZsypew)
 - Make theme easy as possible for merchant to update site without breaking things
 - sections "super important" to allow customization and to make sure you set up settings correctly
 - Three different tags can include in a section
-	- `{% schema %}{% endschema %}`
-	- `{% stylesheet %}{% endstylesheet %}`
-	- `{% javascript %}{% endjavascritp %}`
+  - `{% schema %}{% endschema %}`
+  - `{% stylesheet %}{% endstylesheet %}`
+  - `{% javascript %}{% endjavascritp %}`
 
-	![2021-02-16 19_52_35-{{ Kelly plus Kelly }} Creating Theme Functionality - Sept 30, 2020.mp4 - VLC me.png](:/f48588a1a97f42eb90e2abc63de6d051)
+ ![2021-02-16 19_52_35-{{ Kelly plus Kelly }} Creating Theme Functionality - Sept 30, 2020.mp4 - VLC me.png](:/f48588a1a97f42eb90e2abc63de6d051)
+
 - Use `{% javascript %}{% endjavascritp %}` tags in section, when needed. having a master javascript file where section(s) pulling from loads unnecessary bits to your site.
 - Always want to define section by defining it with a name, it's settings, class and/or presets.
-	- [Required attributes for input settings](https://shopify.dev/docs/themes/settings#attributes-for-input-settings):
-		- `type` - "Name of the type of settings".
-		- `id` - uniqure name for this setting. "id is e[xposed to the Liquid templates](https://shopify.dev/tutorials/develop-theme-theme-editor-other-theme-files#access-settings-inputs) via the [settings](https://shopify.dev/docs/themes/liquid/reference/objects#settings) or [section.settings](https://shopify.dev/docs/themes/liquid/reference/objects/section#section-settings) objects".
-		- `label` - "A label for this setting". A friendly readable field/area describing what the content `type` is to here for and/or will be doing.
-	```json
-	{
+  - [Required attributes for input settings](https://shopify.dev/docs/themes/settings#attributes-for-input-settings):
+    - `type` - "Name of the type of settings".
+    - `id` - uniqure name for this setting. "id is e[xposed to the Liquid templates](https://shopify.dev/tutorials/develop-theme-theme-editor-other-theme-files#access-settings-inputs) via the [settings](https://shopify.dev/docs/themes/liquid/reference/objects#settings) or [section.settings](https://shopify.dev/docs/themes/liquid/reference/objects/section#section-settings) objects".
+    - `label` - "A label for this setting". A friendly readable field/area describing what the content `type` is to here for and/or will be doing.
+
+ ```json
+ {
       "type": "text",
       "id": "free-shipping-threshold",
       "label": "Free Shipping Threshold",
       "info": "Include number only. Don't include the $."
     },
-	```
-	![1fd7ffcd33875e6e1d5667527df9776e.png](:/807195af300c493ab07d46e9154612fb)
+ ```
+
+ ![1fd7ffcd33875e6e1d5667527df9776e.png](:/807195af300c493ab07d46e9154612fb)
+
 - multiple `schema` types that can be used
 - for `schema` > `settings` > content `type` we will use of "text" a lot.
 - If a section is created and not called anywhere, e.g. theme.liquid, then it will not show up in theme style area. Created section needs to be called, or declared, somewhere first.
@@ -100,30 +109,34 @@ Notes:
 ![ccf5a59c2301e2fe1ac60021e36d7228.png](:/4f00e68c01e246fc8e27d12c9d8b94d7)
 - Next episode will be "Theme Performance"
 
-
-* * *
+<br><br>
 
 ### Legend
 
-[![a60a1e77ce0af253dfa441637cb357b6.png](:/0aac0d30dd5844bf8548473715131975)](https://twitter.com/kvlly)
+* * *
+
+[![Kelly Vaughn Twitter Profile Picture](Assets/img/kvelly.jpg "Kelly Vaughn")](https://twitter.com/kvlly)
 
 - `{{ Kelly | }}` = [Kelly Vaughn](https://www.linkedin.com/in/kellyvaughn/)
 
-[![4f9d4f51b887e1264249a8df7a595ba9.png](:/a0169c72c61a4ebcb0157841df70ba20)](https://twitter.com/thommaskelly)
+[![Thomas Kelly Twitter Profile Picture](Assets/img/t-kelly.jpg "Thomas Kelly")](https://twitter.com/thommaskelly)
 
 - `{{ | plus: Kelly }}` = [Thomas Kelly](https://github.com/t-kelly)
 
-* * *
+<br><br>
 
 ### Links
-- Content schema - List of content types: https://shopify.dev/docs/themes/sections/content-schema#list-of-content-types
-- kellyvaughn-shipping-bar.liquid: https://gist.github.com/kellyvaughn/a4c02c27863582c760f20894093db45e
-- https://gridsome.org/plugins/gridsome-source-shopify
-- https://github.com/github/renaming
-- https://ohzsh.sh
-- https://shopify.dev/docs/themes/settings
+
+* * *
+
+- Content schema - List of content types: <https://shopify.dev/docs/themes/sections/content-schema#list-of-content-types>
+- kellyvaughn-shipping-bar.liquid: <https://gist.github.com/kellyvaughn/a4c02c27863582c760f20894093db45e>
+- <https://gridsome.org/plugins/gridsome-source-shopify>
+- <https://github.com/github/renaming>
+- <https://ohzsh.sh>
+- <https://shopify.dev/docs/themes/settings>
 - Browser Sync:
-	- https://www.npmjs.com/package/browsersync-themekit
-	- https://www.browsersync.io/docs
+  - <https://www.npmjs.com/package/browsersync-themekit>
+  - <https://www.browsersync.io/docs>
 
 <br>
