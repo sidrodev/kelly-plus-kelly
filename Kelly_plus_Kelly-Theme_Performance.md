@@ -1,12 +1,12 @@
-## [{{ Kelly | plus: Kelly }} 4: Theme Performance](https://www.youtube.com/watch?v=zotJ-pcnr5g)
-
-<br><br>
+# [{{ Kelly | plus: Kelly }} 4: Theme Performance](https://www.youtube.com/watch?v=zotJ-pcnr5g)
 
 * * *
 
-<br> <br>
+<br><br>
 
 ## Notes
+
+* * *
 
 - When thinking to performance, as a merchant, you may be thinking of speed.
 - Different people will have different ideas on what performance is.
@@ -114,20 +114,27 @@
 
 -
 
-* * *
+<br><br>
 
 ### Legend
 
-[![a60a1e77ce0af253dfa441637cb357b6.png](:/0aac0d30dd5844bf8548473715131975)](https://twitter.com/kvlly)
+* * *
+
+<br>
+
+[![Kelly Vaughn Twitter Picture Profile](Assets/img/kvelly.jpg "Kelly Vaughn")](https://twitter.com/kvlly)
 
 - `{{ Kelly | }}` = [Kelly Vaughn](https://www.linkedin.com/in/kellyvaughn/)
 
-[![4f9d4f51b887e1264249a8df7a595ba9.png](:/a0169c72c61a4ebcb0157841df70ba20)](https://twitter.com/thommaskelly)
+[![Thomas Kelly Twitter Profile Picture](Assets/img/t-kelly.jpg "Thomas Kelly")](https://twitter.com/thommaskelly)
 
 - `{{ | plus: Kelly }}` = [Thomas Kelly](https://github.com/t-kelly)
 
 <br><br>
-Links:
+
+### Links
+
+* * *
 
 - [Image Lazy-loading](https://web.dev/browser-level-image-lazy-loading)
 - [Shopify Theme Inspector](https://github.com/Shopify/shopify-theme-inspector)
@@ -136,7 +143,3 @@ Links:
 <br><br>
 <p id="definitions">definitions:</p>
 &#42; <a href=https://en.wikipedia.org/wiki/Sic>[sic]</a> The Latin adverb sic ("thus", "just as"; in full: sic erat scriptum, "thus was it written")
-
-<br><br>
-
-* * *
