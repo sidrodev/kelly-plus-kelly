@@ -11,7 +11,7 @@
 - When thinking to performance, as a merchant, you may be thinking of speed.
 - Different people will have different ideas on what performance is.
 - Shopify released a speed report.
-![f9a4197b9df00e47321d4223fc3a0a53.png](:/20d34db4235a445bb5611acc70a48ab3)
+![Shopify Partner Admin Center Screenshot focusing on Online Store speed](Assets/img/Shopify_Online_Store_Speed.png "*New Online Store Speed*")
 - Performance in the web platform is somethinbg that everyone is struggling with
 - It's important to know how lighthouse works.
 - All websites are equal in the site of google lighthouse.
@@ -20,7 +20,7 @@
 - Score is caculated using google lighthouse.
 - Google lighthouse is a performance auditing tool, that google has been working on for several years, that tries to boil down performance into one magic number.
 - shopify's score also gives you an idea of how you compare to other people in same line as you.
-![6bc923ab0a938d30e420185a91a49269.png](:/1038691bf38648c2ae5f12691ffad41d)
+![Online store speed - Reports dashboard window screenshot](assets/img/Online_Store_Speed-focus.png "Online store speed - Reports")
 - Performance is user expectation and customer's experience of what is fast.
 - Headless implementation convo going on in Twitch chat, in regards to possible impact to performance.
 - Headless implementation is decoupling front-end of website from back-end.
@@ -38,8 +38,8 @@
 - When looking at performance, advise is to look at what app merchant has installed, as they can add to the slowness of a site/storefront.
 - Even if you uninstall an app, its code may still remain in the theme and also add to the performance of a storefront.
 - If an app is installed and asked for access to the asset api, that means the app will probably be modifying your theme files and may not necessarily unmodify them when unistalled.
-- In order to work on or tweak performance for your theme and/or storefront, we can go to devtools (F12) of the browser and then go to lighthouse. (Make sure to use Chromium base browswers!!)
-![b8e229e3b4a171a1ccd5f4c44fe99e1b.png](:/cf85967741ff47b9b3eb704f21c00db4)
+- In order to work on or tweak performance for your theme and/or storefront, we can go to devtools (F12) of the browser and then go to lighthouse. (Make sure to use Chromium base browsers!!)
+![Google Chrome browser DevTools with Lighthouse tab selected screenshot](assets/img/lighthouse.png "DevTools - Lighthouse")
 - Extensions do have an impact on performance as well, when using lighthouse.
 - run in incognito mode without any extensions running.
 - Lighthouse report give us user centric metrics that are trying to judge user experience.
@@ -47,12 +47,12 @@
 - "Hero" Metrics:
   - First Contentful Paint: First time something significant is painted on the screen.
   - Speed Index: Time when the majority of the page has finished rendering (around 80% of page).
-  - Largest Contentful Paint: When the biggest thing of the page has showned, e.g. image and/or image with text overlay.
+  - Largest Contentful Paint: When the biggest thing of the page has shown, e.g. image and/or image with text overlay.
   - Time to Interactive: Tied to CPU
   - Total Blocking Time: how much CPU is fully occupied and not able to respond to user interaction
   - Cumulative Layout Shift: Core Web Vitals metric calculated by summing all layout shifts that aren’t caused by user interaction.
     - For example, have you ever visited a news site and was about to click on a link to an article, and then… the layout suddenly moves, an ad appears, and somehow instead of clicking on the article you wanted to read, you instead end up clicking on that useless ad? That sudden movement on the page is called the layout shift.
-![1e92abf36ce43f5bc6716f863e67dabb.png](:/37ded7e7db454fbfaac5458d5695f920)
+![Google Chrome browser DevTools Lighthouse with Report ran showcasing metrics](assets/img/lighthouse2.png "Lighthouse Report")
 - In the report, lighthouse also provides us with "Opportunity", nice way of getting started in tweaking the site's performance.
 - It's also a way of pointing us in a direction that can help with the tweaking we can perform and may help with site performance.
 - Lighthouse's "Opportunity" audit/report is not a debug type of tool. It's more like a signal flare to where may be we should start looking into and possibly see what we can find to help us with improve performance on our site/theme.
@@ -77,11 +77,11 @@
   - lazysizes is the most popular library for lazy-loading images. It is a script that intelligently loads images as the user moves through the page and prioritizes images that the user will encounter soon.
   - Lazy-loading is the strategy of loading resources as they are needed, rather than in advance. This approach frees up resources during the initial page load and avoids loading assets that are never used.
 - [In liquid we can specify an image format, for displayed image](https://shopify.dev/docs/themes/liquid/reference/filters/url-filters#img_url).
-![1328ce45a2f9d88fda6d98439905bd46.png](:/b969a7e81ab446d399ee04500121406f)
-![63fb108c87abf0bc1f7326fce3289681.png](:/0c5915d3a6824987a7da10b6a47e2503)
+![Google Chrome browser DevTools sources tab index file under uncorkedandbottledup.com sample sceenshot. Showcasing Devtools Overrides](assets/img/devtools_override.png "Sources > Overrides")
+![Google Chrome browser DevTools sources tab index file under uncorkedandbottledup.com sample sceenshot. Showcasing change to webp](assets/img/devtools_override2.png)
 - If we want to get a score close to 100, there will be tradeoffs.
 - [[Kelly V](https://github.com/kellyvaughn)] Q: would you rather go the cropping route or would you rather have an alternate image uploaded for mobile devices?
-- [[Thomas K](https://github.com/t-kelly)] A: "would go the cropping route because then it allows any um" <a href=#definitions>[sic]*</a> [contingencies?!] "because if you do if you upload different images then you need to predict or you need to figure it out yourself" [sic].
+- [[Thomas K](https://github.com/t-kelly)] A: "would go the cropping route because then it allows any..." <a href=#definitions>[sic]*</a> [contingencies?!] "because if you do if you upload different images then you need to predict or you need to figure it out yourself" [sic].
 - If we can use native lazy-loading we should use it, otherwise fill the gap with lazysizes library, as there are situations that native lazy-loading do not cover.
 - Question: How much wight should we be putting on internal navigation to subsidiary pages? (Interactive performance)
   - Progessive apps (single page apps), shine because they don't reload pages, just swap info that is there.
@@ -102,7 +102,7 @@
   - Theme inspector takes a look at liquid code of theme on current page and will output computing/processing time to take that liquid file to HTML.
   - Useful for speeding up time to first bite (TTFB). The time it takes for Shopify to send response on HTML document being requested.
     - This breaks down the request.
-    - Time that browser is waiting for response is when storefront rendere is doing it's work and creating a response.
+    - Time that browser is waiting for response is when storefront rendered is doing it's work and creating a response.
     - Depending on site and/or liquid content on page, Time to First Bite (TTFB)
     - Ideal response time should be around 200ms*
     - Shopify has a page caching layer/system.
@@ -142,4 +142,5 @@
 
 <br><br>
 <p id="definitions">definitions:</p>
-&#42; <a href=https://en.wikipedia.org/wiki/Sic>[sic]</a> The Latin adverb sic ("thus", "just as"; in full: sic erat scriptum, "thus was it written")
+
+&#42; [[sic]](https://en.wikipedia.org/wiki/Sic) - The Latin adverb sic ("thus", "just as"; in full: sic erat scriptum, "thus was it written")
