@@ -161,7 +161,7 @@ Launch your own online store by visiting Shopify and starting your free trial »
 
 ----
 
-[![a60a1e77ce0af253dfa441637cb357b6.png](:/0aac0d30dd5844bf8548473715131975)](https://twitter.com/kvlly)
+[Assets\img\t-kelly.jpg](https://twitter.com/kvlly)
 
 - `{{ Kelly | }}` = [Kelly Vaughn](https://www.linkedin.com/in/kellyvaughn/)
 
