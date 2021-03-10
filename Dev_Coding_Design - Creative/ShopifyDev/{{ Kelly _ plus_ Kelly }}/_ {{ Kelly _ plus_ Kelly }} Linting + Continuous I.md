@@ -1,4 +1,4 @@
-# {{ Kelly | plus: Kelly }} Linting + Continuous Integration - Dec 9, 2020
+# [{{ Kelly | plus: Kelly }} Linting + Continuous Integration - Dec 9, 2020](https://www.youtube.com/watch?v=bvX6YDh4euM)
 
 about linting. we will be getting a bit more into that. This leads us to continuous integrations (CI), automatic linting.
 
@@ -10,9 +10,11 @@ Looking for more information about developing on Shopify check out www.developer
 
 Connect with us on Twitter » www.twitter.com/shopifydevs
 
-Launch your own online store by visiting Shopify and starting your free trial » http://bit.ly/VisitShopify​
+Launch your own online store by visiting Shopify and starting your free trial » <http://bit.ly/VisitShopify>​
 
 * * *
+
+<br><br>
 
 Notes:
 
@@ -24,7 +26,11 @@ Notes:
 - To enable this new feature in [`ScriptTag`](https://shopify.dev/docs/admin-api/rest/reference/online-store/scripttag), we need to set `"cache": true`. Default is `false`.
 - Section everywhere still being worked on and will be released once ready, so as to not have a repeat of last spring when dev preview was pulled.
 
+<br>
+
 ## Linting
+
+<br>
 
 - In package.json, for linting, `{{ | plus: Kelly }}` updated the file, offline.
 - I checked the repo for the updates and I don't see those changes. Will let `{{ | plus: Kelly }}` know next stream.
@@ -50,17 +56,21 @@ Notes:
 - There seems to be a theme especially for bash in the same vain as ohmyz.sh called [`Oh-My-Bash`](https://ohmybash.nntoan.com/).
 - Another tool for our toolkit in dealing with linting is `hysky.js`. `{{ | plus: Kelly }}` says that husky.js is an easy way of assigning tasks command line to git.
 
+<br>
+
 ## Continuous Integration
+
+<br>
 
 - `{{ Kelly | }}`: Continuous Integration (CI) is the process of automating the build and testing of code every time a team member commits changes to version control... What is really being talked about here, especially where Github is concerned, utilizing [Github actions](https://github.com/features/actions) to built in som of these continuous integration kind of tools.
 - `{{ | plus: Kelly }}`: CI is pretty much having something run after a particular event. That (those) something can be a particular code, or some scripts, or some command lines when particular even is triggered. Used when push code to a repo like Github, commit, open up a PR, pretty much anything.
 - `{{ Kelly | }}`: The Taproom has a Github action that triggers a slack message in a channel called "Pull Requests" when any of the developers there opens a "Pull Requests". This because code reviews are required at The Taproom for all PRs, which helps with mitigating as many errors as possible and also helps new devs with having extra pair of eyes.
-- `{{ Kelly | }}`: There is a [marketplace](https://github.com/marketplace?type=actions) for Github Actions. One Github Actions marketplace example is [`Vercel`](https://github.com/marketplace/actions/vercel-action). When deploying a site to `vercel`, the way that the action works is that whena commit or `pull request` is opened, it automatically generates a deploy preview, which can be shared as needed.
+- `{{ Kelly | }}`: There is a [marketplace](https://github.com/marketplace?type=actions) for Github Actions. One Github Actions marketplace example is [`Vercel`](https://github.com/marketplace/actions/vercel-action). When deploying a site to `vercel`, the way that the action works is that when a commit or `pull request` is opened, it automatically generates a deploy preview, which can be shared as needed.
 - `{{ | plus: Kelly }}`: Github Actions live inside the Github folder and Workflows conveniently live in the workflows folder. Workflows are a list of Github Actions. Even though we may go to the Actions tab in our Github repo and setup Actions, they live in our repo as Workflows.
 - `{{ | plus: Kelly }}`: Actions are tasks/steps. If we want to create an `Action`, it creates its own repo and it needs an `action.yml`, which specifies the what the `Action` does, what version of node does it use, etc. Now, for some reasons Github does not allow you to use node v14 (at least at time of webcast), which allows us to use top level `await`.
 - There seems to be a way to setup [`Github Actions`](https://github.com/actions/setup-node) to use node v14.
 - I thought I had missed the timeline of when we setup the Action. I went back, in the timeline, to the time before `{{ Kelly | plus: Kelly }}` started to speak on Github Actions and I did not miss anything. 🤣🤣 `{{ | plus: Kelly }}` seems to have worked on this offline and is pulling from git, `git pull origin main --rebase`, an `action` that was already setup.
-- I was able to find the action that `{{ | plus: Kelly }}` might have chosen to setup. The `Node.js action`, however, has changed and looks to be using more up-to-date `syntax`. So, to "install" the action, I went to actions and chose node.js under the Continuous Integration section of Actions that were suggested to me, with no Actions yet installed. When an action already exist, we just need to click on New workflow and we will see same "dashbord" that came up when initially coming to Actions.
+- I was able to find the action that `{{ | plus: Kelly }}` might have chosen to setup. The `Node.js action`, however, has changed and looks to be using more up-to-date `syntax`. So, to "install" the action, I went to actions and chose node.js under the Continuous Integration section of Actions that were suggested to me, with no Actions yet installed. When an action already exist, we just need to click on New workflow and we will see same "dashboard" that came up when initially coming to Actions.
 ![6149b9ac86161a0e0148176bba65bcec.png](../../../_resources/70efe6237702443c8a7731f41c52f71c.png)
 ![61ae4a1280becb9951cba180321849d6.png](../../../_resources/0c5910d065a04eed90f293bf87d381d1.png)
 ![ca6e3f75e9ba8e08ed8ac19883edee6d.png](../../../_resources/47c2beb81ad54d4e912a52782614f034.png)
@@ -86,34 +96,45 @@ Notes:
 ![e7b5d51bd8ed656cd08e504616778315.png](../../../_resources/6f616f3b87114119a40683ecb997f677.png)
 - Going back to `{{ Kelly | plus: Kelly }}`'s talk on Actions, Github Actions are workflows on in our repo, which are list of tasks/jobs. Github actions live in the Github Actions marketplace.
 - `{{ | plus: Kelly }}`: If force pushing use plus sign in front of the branch name, e.g. `git push origin +Add-lint-action`. It supposed to be safer and best practice. `{{ | plus: Kelly }}` does not remember as to the reason why it is safer.
-- I made the necessary changes locally regarding node.js linting that was set up.  Went ahead and performed a git push origin +SR+Add-linting-action, as was done by `{{ | plus: Kelly }}`. Followed best practice and deleted the branch this time, sicne I believe that I am caught up to the Kellys now.
+- I made the necessary changes locally regarding node.js linting that was set up.  Went ahead and performed a git push origin +SR+Add-linting-action, as was done by `{{ | plus: Kelly }}`. Followed best practice and deleted the branch this time, since I believe that I am caught up to the Kellys now.
 - In Github settings we can enable/force that lint errors be resolved before allowing merging of `pull requests.`
 ![363f48d9fa3eb92c4940d78ed70f1794.png](../../../_resources/8fea74c8559a4905b27c1f99f09320dc.png)
 - If you decide to upgrade from the free version of github, to use this feature then your branch window will look like the screenshot below.
 ![793711e3768407803c8f0029c1b64625.png](../../../_resources/a06e084905334902a37ef9dd75cbce62.png)
 - after clicking "Add rule" and I was brought to the "Branch Protection Rule" page, I am able to make the necessary selections, as I follow `{{ | plus: Kelly }}`, on the stream.
-![60fc826b08d0be1d6af55e2690398ece.png](../../../_resources/b200bffd5a70489a97c0b2e317b6aa32.png)
-![24831345e3447f772196525335cfbd76.png](../../../_resources/f1776866849f4e32ac8535e23ea28010.png)
+![Screenshot of Branch Protection Rule page in repository's settings, Branches, Branch protection rules](../../../_resources/b200bffd5a70489a97c0b2e317b6aa32.png)
+![Screenshot of Branch Protection Rule page in repository's settings, Branches, Branch protection rules - Options chosen to manage branch pull requests, including admin](../../../_resources/f1776866849f4e32ac8535e23ea28010.png)
 - Alright, we are at time.
 - `{{ Kelly | plus: Kelly }}` went ahead and commited, pulled and merged the changes made thus far in this cast.
 - They are answering some questions, of which one of them is about @`{{ Kelly | }}`'s The Taproom build process. As stated in the `{{ Versioning + Linting }}` stream, in theming, each Dev work on there own duplicated version of the "Live" theme name as so `[Dev] SR` for the Development part. As for staging, they would then duplicate the "Live" theme again and version it based on what was changed in the Deving part, like `[1.0.0] Name of theme`, using [semantic versioning](https://semver.org/). The staging branch is what they work with the client on and once everything is acceptable to the client, then they go ahead and publish to the "Live" version.
 
+<br>
+
 * * *
+
+<br>
 
 ### Legend
 
-[![a60a1e77ce0af253dfa441637cb357b6.png](../../../_resources/0aac0d30dd5844bf8548473715131975.png)](https://twitter.com/kvlly)
+<br>
+
+[![Kelly Vaughn Twitter Profile Picture](../../../_resources/0aac0d30dd5844bf8548473715131975.png "Kelly Vaughn")](https://twitter.com/kvlly)
 
 - `{{ Kelly | }}` = [Kelly Vaughn](https://www.linkedin.com/in/kellyvaughn/)
 
-[![4f9d4f51b887e1264249a8df7a595ba9.png](../../../_resources/a0169c72c61a4ebcb0157841df70ba20.png)](https://twitter.com/thommaskelly)
+[![Thomas Kelly Twitter Profile Picture](../../../_resources/a0169c72c61a4ebcb0157841df70ba20.png "Thomas Kelly")](https://twitter.com/thommaskelly)
 
 - `{{ | plus: Kelly }}` = [Thomas Kelly](https://github.com/t-kelly)
 
+<br>
 
 * * *
 
+<br>
+
 ### Links
+
+<br>
 
 - [The Taproom - Build Process: Liquid settings for JS and CSS](https://github.com/the-taproom/build-process/blob/main/setup-docs/liquid-settings-for-js-css.md)
 - `NPM Packages`:
