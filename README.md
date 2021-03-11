@@ -8,7 +8,7 @@ If you wanted a sort of transcription/notes to go with the vids, then you are we
 
 ## Contributing
 
-For help on setting up the repository locally and contributing please see [CONTRIBUTING.md](https://github.com/Shopify/starter-theme/blob/master/CONTRIBUTING.md).
+For help on setting up the repository locally and contributing please see [CONTRIBUTING.md](https://github.com/sidrodev/kelly-plus-kelly/blob/master/CONTRIBUTING.md).
 
 ## Code of Conduct
 
