@@ -1,0 +1,19 @@
+{
+  "name": "kelly-plus-kelly",
+  "version": "1.0.0",
+  "description": "[![Creative Commons License](https://licensebuttons.net/l/by-sa/4.0/88x31.png)](https://creativecommons.org/licenses/by-sa/4.0/ \"CC BY-SA 4.0\")",
+  "main": "gulpfile.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sidrodev/kelly-plus-kelly.git"
+  },
+  "author": "Sidney",
+  "license": "CC-BY-4.0",
+  "bugs": {
+    "url": "https://github.com/sidrodev/kelly-plus-kelly/issues"
+  },
+  "homepage": "https://github.com/sidrodev/kelly-plus-kelly#readme"
+}
