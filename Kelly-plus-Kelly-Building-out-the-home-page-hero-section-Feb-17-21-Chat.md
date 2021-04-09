@@ -38,7 +38,7 @@ cdboiuk:oh ye, either that or serious meditation
 
 53:08
 
-Prime Gamingmicrobored:<img src="under_construction.gif" />
+Prime Gaming microbored:<img src="under_construction.gif" />
 
 53:15
 
@@ -46,7 +46,7 @@ cdboiuk:at one with the code
 
 54:45
 
-Prime Gamingmicrobored:TIL Canadians call them tuques, whereas they're called beanies in the US
+Prime Gaming microbored:TIL Canadians call them tuques, whereas they're called beanies in the US
 
 54:47
 
@@ -54,7 +54,7 @@ cdboiuk:hehe some of your code is eerily similar to mine
 
 55:35
 
-OWL All-Access Pass 2018Kinngh:LuvSign LuvSign
+OWL All-Access Pass 2018 Kinngh:LuvSign LuvSign
 
 58:13
 
@@ -62,11 +62,11 @@ cdboiuk:helpers PartyHat
 
 59:44
 
-Prime Gamingmicrobored:Mute the tab in chrome (right click, mute tab)
+Prime Gaming microbored:Mute the tab in chrome (right click, mute tab)
 
 59:50
 
-Prime Gamingmicrobored:er, mute site
+Prime Gaming microbored:er, mute site
 
 1:00:28
 
@@ -78,11 +78,11 @@ mirceapiturca:will wait...
 
 1:01:16
 
-Prime Gamingkuipou:hey thomas do you have an email?
+Prime Gaming kuipou:hey thomas do you have an email?
 
 1:01:45
 
-Prime Gamingkuipou:awesome
+Prime Gaming kuipou:awesome
 
 1:01:53
 
@@ -94,11 +94,11 @@ cdboiuk:oooo
 
 1:02:01
 
-Prime Gamingkuipou:do a dance party
+Prime Gaming kuipou:do a dance party
 
 1:02:18
 
-Prime Gamingsidro01:thank you
+Prime Gaming sidro01:thank you
 
 1:02:20
 
@@ -110,7 +110,7 @@ cdboiuk:i.e. 1.1
 
 1:02:28
 
-VerifiedStreamlabs:- cdboiuk -> Please refrain from spamming symbols.
+Verified Streamlabs:- cdboiuk -> Please refrain from spamming symbols.
 
 1:02:28
 
@@ -118,11 +118,11 @@ mirceapiturca:thank you for putting this out
 
 1:02:29
 
-Prime Gamingkuipou:we need a kelly pop
+Prime Gaming kuipou:we need a kelly pop
 
 1:02:29
 
-VerifiedStreamlabs:- @shopifydevs,I am having some trouble functioning as intended. To work properly I need to be modded, you can do this by typing /mod Streamlabs.
+Verified Streamlabs:- @shopifydevs,I am having some trouble functioning as intended. To work properly I need to be modded, you can do this by typing /mod Streamlabs.
 
 1:02:35
 
@@ -158,7 +158,7 @@ cdboiuk:Yeah this is exactly what I am doing :D
 
 1:03:41
 
-Prime Gamingkuipou:filter for in stock out of stock :P
+Prime Gaming kuipou:filter for in stock out of stock :P
 
 1:03:42
 
@@ -174,7 +174,7 @@ Tikio88:Metric system for the ein!
 
 1:04:07
 
-Prime Gamingmicrobored:Thanks for the stream! Happy Wednesday
+Prime Gaming microbored:Thanks for the stream! Happy Wednesday
 
 1:04:18
 
@@ -186,7 +186,7 @@ Tikio88:win**
 
 1:04:29
 
-Prime Gamingkuipou:i know right our height in foots and travel km
+Prime Gaming kuipou:i know right our height in foots and travel km
 
 1:04:34
 
@@ -194,7 +194,7 @@ cdboiuk:It is going to create a set of products, that represent all possible var
 
 1:04:55
 
-Prime Gamingkuipou:dont worry kel;ly we cant gage either
+Prime Gaming kuipou:dont worry kel;ly we cant gage either
 
 1:04:59
 
